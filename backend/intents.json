@@ -1,0 +1,191 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hello",
+        "hi",
+        "hey",
+        "hey there",
+        "good morning",
+        "good afternoon",
+        "good evening",
+        "hi chatbot",
+        "hello bot",
+        "hey bot"
+      ],
+      "responses": [
+        "Hello! 👋 How can I help you?",
+        "Hi there! 🤖 What can I do for you?",
+        "Hey! Nice to meet you. How can I assist you?"
+      ]
+    },
+
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you",
+        "see you later",
+        "talk to you later",
+        "I have to go",
+        "bye chatbot",
+        "catch you later"
+      ],
+      "responses": [
+        "Goodbye! 👋 Have a great day!",
+        "See you later! 🤖",
+        "Bye! Take care!"
+      ]
+    },
+
+    {
+      "tag": "name",
+      "patterns": [
+        "what is your name",
+        "what's your name",
+        "who are you",
+        "tell me your name",
+        "what should I call you",
+        "who am I talking to",
+        "what are you called"
+      ],
+      "responses": [
+        "I'm your ML Chatbot 🤖",
+        "You can call me ML Bot!",
+        "I'm an AI chatbot built using Python, Flask and NLP."
+      ]
+    },
+
+    {
+      "tag": "help",
+      "patterns": [
+        "what can you do",
+        "how can you help me",
+        "what do you do",
+        "help me",
+        "what are your features",
+        "what can you help with",
+        "how can you assist me",
+        "what are you capable of"
+      ],
+      "responses": [
+        "I can answer questions, understand simple conversations and respond using NLP. 🤖",
+        "I can chat with you and understand different types of messages!",
+        "I'm designed to have simple conversations using Machine Learning and NLP."
+      ]
+    },
+
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thank you",
+        "thanks",
+        "thanks a lot",
+        "thank you so much",
+        "that's helpful",
+        "thank you for helping",
+        "appreciate it",
+        "thanks chatbot"
+      ],
+      "responses": [
+        "You're welcome! 😊",
+        "Happy to help! 🤖",
+        "Anytime! ❤️",
+        "Glad I could help!"
+      ]
+    },
+
+    {
+      "tag": "about",
+      "patterns": [
+        "what is this chatbot",
+        "tell me about this chatbot",
+        "how was this chatbot built",
+        "what technology do you use",
+        "what is this project",
+        "tell me about the project",
+        "how does this chatbot work",
+        "what is this application"
+      ],
+      "responses": [
+        "I'm an ML chatbot built using Python, Flask, NLTK and scikit-learn. 🤖",
+        "This chatbot uses Natural Language Processing and Machine Learning.",
+        "I'm a student ML project designed to demonstrate NLP and chatbot development."
+      ]
+    },
+
+    {
+      "tag": "technology",
+      "patterns": [
+        "what technologies are used",
+        "what programming language do you use",
+        "what is the backend built with",
+        "what is the frontend built with",
+        "which machine learning library do you use",
+        "do you use nltk",
+        "do you use python",
+        "what tools were used"
+      ],
+      "responses": [
+        "The project uses React for the frontend and Python with Flask for the backend.",
+        "I use NLTK for Natural Language Processing and scikit-learn for Machine Learning.",
+        "The main technologies are React, Python, Flask, NLTK and scikit-learn. 🚀"
+      ]
+    },
+
+    {
+      "tag": "nltk",
+      "patterns": [
+        "what is nltk",
+        "tell me about nltk",
+        "why do you use nltk",
+        "how does nltk help",
+        "what does nltk do",
+        "is nltk used in this project"
+      ],
+      "responses": [
+        "NLTK stands for Natural Language Toolkit. It helps process and analyze human language.",
+        "I use NLTK for tasks such as tokenization and lemmatization. 🧠",
+        "NLTK is the Natural Language Processing library used in this project."
+      ]
+    },
+
+    {
+      "tag": "machine_learning",
+      "patterns": [
+        "what machine learning model do you use",
+        "which ml algorithm do you use",
+        "what algorithm is used",
+        "how does machine learning work here",
+        "what model powers you",
+        "are you using machine learning",
+        "tell me about the ml model"
+      ],
+      "responses": [
+        "This project uses Logistic Regression for intent classification. 🤖",
+        "I use a Logistic Regression model trained on chatbot intent examples.",
+        "The ML model learns patterns in text and predicts the user's intent."
+      ]
+    },
+
+    {
+      "tag": "capabilities",
+      "patterns": [
+        "can you answer questions",
+        "can you chat with me",
+        "can you understand me",
+        "can you have a conversation",
+        "are you able to chat",
+        "what kind of questions can I ask",
+        "can I talk to you"
+      ],
+      "responses": [
+        "Yes! You can chat with me using natural language. 🤖",
+        "Absolutely! Try asking me about the chatbot, its technology, or its capabilities.",
+        "Yes! I'm designed to understand several types of conversational messages."
+      ]
+    }
+  ]
+}
