@@ -193,11 +193,11 @@ function App() {
           <div>
 
             <h1>
-              ML <span>Chatbot</span>
+              Hey <span> MAWA</span>
             </h1>
 
             <p>
-              Smart Conversations with AI
+               Welcome to the Chat!
             </p>
 
           </div>
@@ -297,11 +297,11 @@ function App() {
           <div>
 
             <h3>
-              ML Chatbot Project
+              MINDORA
             </h3>
 
             <p>
-              Student Project
+              Profile
             </p>
 
             <small>
